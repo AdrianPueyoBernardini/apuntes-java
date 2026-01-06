@@ -76,5 +76,7 @@ class Scann{
         var data = sc.nextLine();
         //Convertimos al valor esperado, en este caso Int
         var dataInt = Integer.parseInt(data);
+
+        System.out.println(dataInt);
     }
 }
