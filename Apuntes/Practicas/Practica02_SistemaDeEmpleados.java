@@ -33,10 +33,10 @@ class MetodosEmpleado{
         var esJefe = Boolean.parseBoolean(sc.nextLine());
 
         System.out.println("---------------------------DATOS---------------------------");
-        System.out.println("Nombre del empleado: " + nombre);
-        System.out.println("Edad del empleado: " + edad);
-        System.out.println("Salario del empleado: " + salario);
-        System.out.println("¿Es jefe de Aperture Science?: " + esJefe);
+        System.out.println("\tNombre del empleado: " + nombre);
+        System.out.println("\tEdad del empleado: " + edad);
+        System.out.println("\tSalario del empleado: " + salario);
+        System.out.println("\t¿Es jefe de Aperture Science?: " + esJefe);
         System.out.println("-----------------------------------------------------------");
     }
 }
