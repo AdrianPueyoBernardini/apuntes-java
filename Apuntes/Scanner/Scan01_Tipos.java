@@ -3,7 +3,7 @@ package Scanner;
 //IMPORTAMOS SCANNER
 import java.util.Scanner;
 
-public class ScanTypes {
+public class Scan01_Tipos {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

@@ -1,7 +1,7 @@
 package Random;
 import java.util.Random;
 
-public class RandomBasics {
+public class Random01 {
     public static void main(String[] args) {
         RandomMetod met = new RandomMetod();
         met.generarIntAleatorio();

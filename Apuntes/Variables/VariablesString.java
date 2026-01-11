@@ -3,12 +3,13 @@ package Variables;
 public class VariablesString {
     public static void main(String[] args) {
         OperacionesString nuevaOperacion = new OperacionesString();
-        nuevaOperacion.concatenarOpc3("adrian", "Noelia");
+        nuevaOperacion.formatosText();
     }
 
 
 }
 class OperacionesString{
+
     String miCadena = "hola que tal";
 
     //-----------------------------------------------------------------
@@ -19,6 +20,25 @@ class OperacionesString{
             una
             multilinea
             """;
+
+
+    //-----------------------------------------------------------------
+    //Fomatos especiales para cadenas
+    // \t --> Tabulación
+    // \s --> Espacio
+    void formatosText(){
+        String nombre = "Adri";
+        Integer edad = 26;
+        String micadena3 = """
+            \s-----------------USUARIO-----------------
+            \t Nombre: %s
+            \t Edad: %d
+            \s----------------------------------
+            """.formatted(nombre, edad);
+
+        System.out.println(micadena3);
+    }
+
 
     //-----------------------------------------------------------------
     //.length -> Obtener longitud de una cadena
@@ -101,12 +121,24 @@ class OperacionesString{
     void concatenarOpc1(String str1,String str2){
         System.out.println(str1 + " " + str2);
     }
+
+    //-----------------------------------------------------------------
     //.concat, contactenaciones de cadenas #2
     void concatenarOpc2(String str1,String str2){
         System.out.println(str1.concat(str2));
     }
+
+    //-----------------------------------------------------------------
     //.join, contactenaciones de cadenas #3
     void concatenarOpc3(String str1,String str2){
         System.out.println(String.join("*", str1, str2));
+    }
+
+    //-----------------------------------------------------------------
+    //String.format
+    //El %s reemplaza a un elemento tipo string, el %d a un elemento tipo enterio y el %f a un flotante
+    void darFormato(String nombre,Integer edad, Double salario ){
+        var mensaje = String.format("Nombre: %s, Edad: %d, Salario: %.2f", nombre, edad, salario);
+        System.out.println(mensaje);
     }
 }
