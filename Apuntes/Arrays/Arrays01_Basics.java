@@ -4,6 +4,8 @@ public class Arrays01_Basics {
     public static void main(String[] args) {
         //1. Declaración de array de enteros
         int[] myIntegerArray;
+        //o.
+        //var myIntegerArray2 = new int[2];
 
         //2. Asignamos espacio en memoria
         myIntegerArray = new int[5];
