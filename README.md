@@ -7,4 +7,4 @@ Control + Shift + V
 https://www.conventionalcommits.org/en/v1.0.0/
 
 Estos apuntes han sido realizados con el fin de acceder a ellos a futuro y encaminarse 
-a la implementación en entornos Cloud con AWS o Azure[.gitignore](.gitignore)
+a la implementación en entornos Cloud con AWS o Azure
