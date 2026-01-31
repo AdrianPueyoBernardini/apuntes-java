@@ -1,4 +1,4 @@
-package practicas;
+package practicas02;
 
 public class Practica06_ParesBucle {
     public static void main(String[] args) {

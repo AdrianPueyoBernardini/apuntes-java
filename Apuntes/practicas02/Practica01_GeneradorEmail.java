@@ -1,4 +1,4 @@
-package practicas;
+package practicas02;
 import java.util.Scanner;
 
 
