@@ -1,4 +1,4 @@
-# GUÍA DE APUNTES **JAVA**
+# GUÍA DE APUNTES JAVA
 
 *Markdown preview en VSCode:* 
 Control + Shift + V
