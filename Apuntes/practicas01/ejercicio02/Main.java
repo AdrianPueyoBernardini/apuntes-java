@@ -22,7 +22,7 @@ public class Main {
                 \t 5. Salir del juego
                 ---------------------------------------------------------
                 """);
-
+            System.out.println("Ingresa la opcion del menu: ");
             var opcion = Integer.parseInt(sc.nextLine());
 
 

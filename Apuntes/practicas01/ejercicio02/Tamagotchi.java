@@ -1,6 +1,6 @@
 package practicas01.ejercicio02;
 
-//PRACTICA REALIZADA SIN USO DE CHATGPT*
+//PRACTICAS REALIZADAS SIN USO DE CHATGPT*
 //He creado una clase main como menú selector de la "App"
 
 public class Tamagotchi {
