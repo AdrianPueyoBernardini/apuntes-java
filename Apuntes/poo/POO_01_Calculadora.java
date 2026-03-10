@@ -1,6 +1,8 @@
 package poo;
 
-public class Calculadora {
+//Creación básica de un objeto y su instancia en "Zona Practica01"
+
+public class POO_01_Calculadora {
     int operando1,operando2;
 
     void sumar(){

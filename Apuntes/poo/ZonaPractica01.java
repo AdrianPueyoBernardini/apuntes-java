@@ -4,31 +4,17 @@ package poo;
 public class ZonaPractica01 {
 
     public static void main(String[] args) {
+        POO_03_Persona p1 = new POO_03_Persona("Adri", 32);
+        p1.setEdad(22);
+        //El metodo to String nos permite mostrar el objecto sin tener que llamarlo
+        //System.out.println(p1.toString());
+        System.out.println(p1);
 
-        /*
-        Excursion ex1 = new Excursion("El saldo", 50, 8, 3);
-        ex1.muestraExcursion();
+        POO_03_Persona p2 = new POO_03_Persona("Noelia", 26);
+        System.out.println(POO_03_Persona.contadorPersonas);
 
-        Excursion ex2 = new Excursion();
-        ex2.muestraExcursion();
 
-        ex2.setNombre("Ibon de ranas");
-        System.out.println(ex2.getNombre());
-        ex2.muestraExcursion();
-        */
-        Persona p1 = new Persona("Adri", "Gimeno");
-        p1.mostrarDatos();
 
-        p1.setNombre("juan");
-        p1.mostrarDatos();
-
-        /*
-        Calculadora c = new Calculadora();
-        c.operando1 = 5;
-        c.operando2 = 6;
-        c.sumar();
-        c.multiplicar();
-        */
     }
 
 

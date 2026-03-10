@@ -1,6 +1,7 @@
 package poo;
 
-public class Excursion {
+//Creación básica del objeto con Getters, setters y constructor
+public class POO_02_Excursion {
 
     //1. Primero seleccionamos los atributos que tendrá la clase, en privado, ya que para acceder a ellos tendrá que ser
     //   con el metodo get y set
@@ -14,7 +15,7 @@ public class Excursion {
     //   Introduciremos todos los atributos que se puedan aplicar en la creación de la clase e igualaremos los atributos
     //   creados anteriormente para que una vez se cree la isntancia, le de los valores a nuestra clase
 
-    public Excursion(String nombre, double duracion, double distancia, int dificultad){
+    public POO_02_Excursion(String nombre, double duracion, double distancia, int dificultad){
         this.nombre = nombre;
         this.duracion = duracion;
         this.distancia = distancia;
@@ -24,7 +25,7 @@ public class Excursion {
     //3. Dejando este duplicado del constructor vacía, aplicamos la "sobrecarga de constructores" es decir, ahora
     //   no tendremos un error cuando creemos una instancia vacía y saldrán los siguientes valores por defecto
 
-    public Excursion(){
+    public POO_02_Excursion(){
         this("No hay datos", 0, 0, 1);
     }
 
