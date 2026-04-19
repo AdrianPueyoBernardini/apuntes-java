@@ -1,8 +1,8 @@
-package colecciones.matrices;
+package otros.matrices;
 
 public class Matrices01_basics {
     public static void main(String[] args){
-        //Las colecciones.matrices son arreglos de dos dimensiones
+        //Las otros.matrices son arreglos de dos dimensiones
         //Puede tener x columnas y x filas por lo que para acceder a cada apartado
         //Tendremos que seleccionar ambas opciones(columna y fila)
         //!!!-> [fila] [columna]

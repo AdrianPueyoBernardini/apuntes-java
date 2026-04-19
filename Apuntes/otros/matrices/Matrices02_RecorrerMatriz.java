@@ -1,4 +1,4 @@
-package colecciones.matrices;
+package otros.matrices;
 import java.util.Scanner;
 
 
